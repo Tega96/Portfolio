@@ -1,4 +1,4 @@
-@import url('');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss"
 
 
@@ -44,7 +44,7 @@
   /* Firefox Scrollbar */
   * {
     scrollbar-width: thin;
-    scrolbar-color: #6FE047 #0a0a0a;
+    scrollbar-color: #6FE047 #0a0a0a;
   }
   
   /* Hide Scrollbar for Carousel */
