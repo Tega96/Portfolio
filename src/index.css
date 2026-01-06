@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
-@import "tailwindcss"
+@import "tailwindcss";
 
 
 @theme {
@@ -11,7 +11,7 @@
 @layer base {
   html {
     font-family: var(--font-display);
-    scroll-behaviour: smooth;
+    scroll-behavior: smooth;
   }
 
   body {
