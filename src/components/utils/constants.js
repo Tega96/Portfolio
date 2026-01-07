@@ -19,10 +19,10 @@ export const SOCIAL_LINKS = {
 };
 
 export const STATS = [
-    { lable: 'Years Experience', value: '3+' },
-    { lable: 'Projects Completed', value: '50+' },
-    { lable: 'Technologies', value: '10+' },
-    { lable: 'Client Satisfaction', value: '98%' },
+    { label: 'Years Experience', value: '3+' },
+    { label: 'Projects Completed', value: '50+' },
+    { label: 'Technologies', value: '10+' },
+    { label: 'Client Satisfaction', value: '98%' },
 ];
 
 export const ABOUT_STATS = [

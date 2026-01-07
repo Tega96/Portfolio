@@ -1,4 +1,5 @@
 import Navbar from "./components/layout/Navbar";
+import Hero from "./components/sections/Hero";
 
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
     <div className='min-h-screen bg-black'>
       <Navbar />
       <main>
-        App
+        <Hero />
+        <About />
       </main>
     </div>
   )
