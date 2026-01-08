@@ -14,7 +14,7 @@ export const useScrollSpy = (sectionIds, offset = 100) => {
                     const sectionTop = section.offsetTop;
                     const sectionHeight = section.offsetHeight;
 
-                    if (scrollPosition >= sectionTop && scrollPostion < sectionTop + sectionHeight) {
+                    if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
                         setActiveSection(sectionIds[i]);
                         break;
                     }
