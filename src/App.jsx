@@ -4,6 +4,7 @@ import About from "./components/sections/About";
 import Skills from "./components/sections/Skills";
 import Projects from "./components/sections/Projects";
 import Contact from "./components/sections/Contact";
+import Footer from "./components/sections/Footer";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
   return (
     <div className='min-h-screen bg-black'>
       <Navbar />
+      
       <main>
         <Hero />
         <About />
@@ -18,6 +20,8 @@ function App() {
         <Projects />
         <Contact />
       </main>
+      
+      <Footer />
     </div>
   )
 }
