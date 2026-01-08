@@ -1,5 +1,5 @@
 
-const RadialGradientBackgroud = ({variant='hero', gradient={}}) => {
+const RadialGradientBackgroud = ({variant='hero', gradients=[]}) => {
     
     const variants = {
         hero: [
@@ -45,7 +45,7 @@ const RadialGradientBackgroud = ({variant='hero', gradient={}}) => {
         ],
         about: [
             {
-                position: 'bottom-0 right-[75%]',
+                position: 'bottom-0 left-[75%]',
                 size: 'w-[700px] h-[700px]',
                 colors: [
                     { color: 'rgba(141, 255, 105, 0.25)', stop: '100%'},
@@ -60,9 +60,9 @@ const RadialGradientBackgroud = ({variant='hero', gradient={}}) => {
         ],
     };
 
-    const activateGradients = variant === 'custom' ? gradient: variants[variant] || variants.hero;
+    const activateGradients = variant === 'custom' ? gradients: variants[variant] || variants.hero;
 
-    const generatedGradient = (colors) => {
+    const generateGradient = (colors) => {
         const colorStops = colors.map(({color, stop}) => `${color} ${stop}`).join(', ');
         return `radial-gradient(circle at center, transparent 0%, transparent 30%, ${colorStops}, transparent 60%, transparent 100%)`;
     }
@@ -72,9 +72,9 @@ const RadialGradientBackgroud = ({variant='hero', gradient={}}) => {
             {activateGradients.map((gradient, index) => (
                 <div
                     key={index}
-                    className={`absolute ${gradient.position} ${gradient.size} rounded-fulls`}
+                    className={`absolute ${gradient.position} ${gradient.size} rounded-full`}
                     style={{
-                        background: generatedGradient(gradient.colors),
+                        background: generateGradient(gradient.colors),
                         filter: `blur(${gradient.blur})`,
                         opacity: gradient.opacity,
                     }}
