@@ -112,14 +112,14 @@ export const skills = [
         experience: '3+ years'
     },
     {
-        id: 8,
+        id: 17,
         name: 'Jenkins',
         icon: 'reactImg',
         level: 'Expert',
         experience: '3+ years'
     },
     {
-        id: 8,
+        id: 18,
         name: 'PostgreSQL',
         icon: 'reactImg',
         level: 'Expert',

@@ -39,8 +39,8 @@ const Skills = () => {
             'Advanced': 80,
             'Intermediate': 65,
         };
-        return levels || 50;
-        //return level(level) || 50
+        // return levels || 50;
+        return levels[level] || 50
     }
 
     // Get level color
