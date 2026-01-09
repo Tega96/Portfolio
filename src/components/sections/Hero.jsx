@@ -28,13 +28,13 @@ const Hero = () => {
 
                         <FadeIn delay={100}> 
                             <h1 className="text-4xl md:text-5xl lg:text-6xl font-normal text-white mb-6 leading-tight">
-                                React.js Developer Portfolio
+                                Full Stack Developer Portfolio
                             </h1>
                         </FadeIn>
 
                         <FadeIn delay={200}>
                             <p className="text-lg text-white/70 max-w-[550px] mb-8">
-                                Building mordern, scalable web applications with....
+                                Building modern, scalable web applications with....
                             </p>
                         </FadeIn>
 
@@ -77,7 +77,7 @@ const Hero = () => {
                                 {/* Image Container */}
                                 <div className="relative rounded-2xl overflow-hidden m-[1px] h-[calc(100%-2px)]">
                                     <img 
-                                        src="/assets/developer.jpg" 
+                                        src="/assets/images/dev.png" 
                                         alt="Developer at work" 
                                         className='w-full h-full object-cover'
                                     />

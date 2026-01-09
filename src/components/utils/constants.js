@@ -4,7 +4,7 @@ export const PERSONAL_INFO = {
     email: 'otiteotega@gmail.com',
     location: 'Lekki, Lagos, Nigeria.',
     tagline: 'Crafting seamless digital experience with modern web technologies',
-    resume: '/resume.pdf',
+    resume: '/assets/resume.pdf',
     bio: [
         "I'm a passionate Software developer with over 3 years of experience building ...",
         "My expertise spans the entire frontend ecosystem, from React and Next.js...",
@@ -15,12 +15,13 @@ export const PERSONAL_INFO = {
 export const SOCIAL_LINKS = {
     github: 'https://github.com/Tega96',
     linkedin: 'https://linkedin.com/in/otega-otite',
-    dribble: 'https://dribbble.com'
+    dribble: 'https://dribbble.com',
+    whatsApp: 'https://wa.me/2349125287405'
 };
 
 export const STATS = [
     { label: 'Years Experience', value: '3+' },
-    { label: 'Projects Completed', value: '50+' },
+    { label: 'Projects Completed', value: '10+' },
     { label: 'Technologies', value: '10+' },
     { label: 'Client Satisfaction', value: '98%' },
 ];
