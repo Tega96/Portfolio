@@ -11,7 +11,7 @@ export const skills = [
         name: 'JavaScript',
         icon: 'reactImg',
         level: 'Expert',
-        experience: '4+ years'
+        experience: '5+ years'
     },
     {
         id: 3,
@@ -36,24 +36,24 @@ export const skills = [
     },
     {
         id: 6,
-        name: 'React.js',
+        name: 'HTML',
         icon: 'reactImg',
         level: 'Expert',
-        experience: '3+ years'
+        experience: '5+ years'
     },
     {
         id: 7,
-        name: 'React.js',
-        icon: 'reactImg',
+        name: 'MongoDB',
+        icon: 'mongodbImg',
         level: 'Expert',
         experience: '3+ years'
     },
     {
         id: 8,
-        name: 'React.js',
-        icon: 'reactImg',
-        level: 'Expert',
-        experience: '3+ years'
+        name: 'Docker',
+        icon: 'dockerImg',
+        level: 'Intermediate',
+        experience: '2+ years'
     },
     {
         id: 9,
@@ -87,7 +87,7 @@ export const skills = [
         id: 13,
         name: 'Figma',
         icon: 'reactImg',
-        level: 'Expert',
+        level: 'Advance',
         experience: '3+ years'
     },
     {
@@ -99,30 +99,37 @@ export const skills = [
     },
     {
         id: 15,
-        name: 'Docker',
-        icon: 'reactImg',
-        level: 'Expert',
-        experience: '3+ years'
+        name: 'CSS',
+        icon: 'cssImg',
+        level: 'intermediate',
+        experience: '5+ years'
     },
     {
         id: 16,
         name: 'Kubernetics',
         icon: 'reactImg',
-        level: 'Expert',
+        level: 'Intermediate',
         experience: '3+ years'
     },
     {
         id: 17,
         name: 'Jenkins',
         icon: 'reactImg',
-        level: 'Expert',
-        experience: '3+ years'
+        level: 'Advanced',
+        experience: '2+ years'
     },
     {
         id: 18,
         name: 'PostgreSQL',
         icon: 'reactImg',
-        level: 'Expert',
+        level: 'Advanced',
+        experience: '3+ years'
+    },
+    {
+        id: 19,
+        name: 'Bash Scripting',
+        icon: 'bashImg',
+        level: 'intermediate',
         experience: '3+ years'
     },
 ];

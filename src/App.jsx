@@ -7,7 +7,7 @@ import Contact from "./components/sections/Contact";
 import Footer from "./components/sections/Footer";
 
 
-function App() {
+const App = () => {
 
   return (
     <div className='min-h-screen bg-black'>

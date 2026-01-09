@@ -24,6 +24,11 @@ const About = () => {
 
             <div className="relative z-10 max-w-7-xl mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Main Grid */}
+                <FadeIn delay={100}>
+                    <h2 className="text-4xl lg:text-5xl font-normal text-white leading-tight text-center mb-4">
+                        Crafting Digital Experiences That Matter
+                    </h2>
+                </FadeIn>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
                     {/* Left Column - Content */}
                     <div className="flex flex-col gap-12">
@@ -38,11 +43,11 @@ const About = () => {
                                 </div>
                             </FadeIn>
 
-                            <FadeIn delay={100}>
+                            {/* <FadeIn delay={100}>
                                 <h2 className="text-4xl lg:text-5xl font-normal text-white leading-tight">
                                     Crafting Digital Experiences That Matter
                                 </h2>
-                            </FadeIn>
+                            </FadeIn> */}
 
                             <FadeIn delay={200}>
                                 <div className="flex flex-col gap-4">
