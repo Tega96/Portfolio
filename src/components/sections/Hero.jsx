@@ -34,7 +34,7 @@ const Hero = () => {
 
                         <FadeIn delay={200}>
                             <p className="text-lg text-white/70 max-w-[550px] mb-8">
-                                Building modern, scalable web applications with....
+                                Building modern, scalable web applications with cutting edge technologies. Transforming ideas into exceptional digital experiences.
                             </p>
                         </FadeIn>
 

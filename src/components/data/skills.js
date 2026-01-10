@@ -109,7 +109,7 @@ export const skills = [
         name: 'Kubernetics',
         icon: 'reactImg',
         level: 'Intermediate',
-        experience: '3+ years'
+        experience: '2+ years'
     },
     {
         id: 17,

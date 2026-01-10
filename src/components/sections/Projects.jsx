@@ -1,3 +1,4 @@
+import React from 'react'
 import { useState, useRef } from 'react';
 import {projects, categories } from '../data/projects'
 import { Briefcase, Sparkle, Target, Globe, Palette, Zap, ChevronLeft, ChevronsLeftRightIcon } from 'lucide-react';

@@ -6,9 +6,9 @@ export const PERSONAL_INFO = {
     tagline: 'Crafting seamless digital experience with modern web technologies',
     resume: '/assets/resume.pdf',
     bio: [
-        "I'm a passionate Software developer with over 3 years of experience building ...",
-        "My expertise spans the entire frontend ecosystem, from React and Next.js...",
-        "When I'm not coding, you'll find me contributing to open-source projects or reading books"
+        "I'm a passionate Software developer with over 3 years of experience building clean reliable web applications that scales.",
+        "I work accross the stack, focusing on beautiful designs, thoughtful architeture, maintainable code, and products that scales well over time.",
+        "Outside of work, I enjoy learning new technologies, refining my craft, and building personal projects that challenge how I think about software"
     ]
 };
 
@@ -16,7 +16,7 @@ export const SOCIAL_LINKS = {
     github: 'https://github.com/Tega96',
     linkedin: 'https://linkedin.com/in/otega-otite',
     dribble: 'https://dribbble.com',
-    whatsApp: 'https://wa.me/2349125287405'
+    whatsapp: 'https://wa.me/2349125287405'
 };
 
 export const STATS = [

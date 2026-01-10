@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Download, Code2, Sparkle, Sparkles } from 'lucide-react';
-import { SiReact, SiNextdotjs, SiTypescript, SiTailwindcss, SiNodedotjs, SiMongodb } from 'react-icons/si';
+import { SiReact, SiHtml5, SiCss3, SiNextdotjs, SiTypescript, SiTailwindcss, SiNodedotjs, SiMongodb, SiPostgresql, SiDjango, SiJenkins, SiDocker } from 'react-icons/si';
 import { PERSONAL_INFO, ABOUT_STATS } from '../utils/constants';
 import FadeIn from '../animations/FadeIn';
 import RadialGradientBackgroud from '../backgrounds/RadialGradientBackground';
@@ -10,12 +10,18 @@ const About = () => {
 
     // Skills
     const skills = [
+        {name: 'Html5', icon: SiHtml5, color: '#61DAFB'},
+        {name: 'CSS3', icon: SiCss3, color: '#61DAFB'},
         {name: 'React.js', icon: SiReact, color: '#61DAFB'},
         {name: 'Next.js', icon: SiNextdotjs, color: '#000000'},
         {name: 'TypeScript', icon: SiTypescript, color: '#3178c6'},
         {name: 'Tailwind Css', icon: SiTailwindcss, color: '#068604'},
         {name: 'Node.js', icon: SiNodedotjs, color: '##339933'},
+        {name: 'Django', icon: SiDjango, color: '#47A248'},
         {name: 'MongoDB', icon: SiMongodb, color: '#47A248'},
+        {name: 'Postgresql', icon: SiPostgresql, color: '#47A248'},
+        {name: 'Jenkins', icon: SiJenkins, color: '#47A248'},
+        {name: 'Docker', icon: SiDocker, color: '#47A248'},
     ];
 
     return (
@@ -78,6 +84,7 @@ const About = () => {
                                 className="inline-flex items-center gap-3 bg-white hover:bg-white/90 text-black rounded-full px-8 py-4 text-base font-medium transition-all duration-300 w-fit group"
                             >
                                 <Download className="w-5 h-5 group-hover:translate-y-0.5 transition-transform duration-300" />
+                                Download Resume
                             </button>
                         </FadeIn>
                     </div>

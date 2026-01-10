@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Mail, MapPin, Github, Linkedin, Twitter, Send, MessageSquare } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa6";
 import { PERSONAL_INFO, SOCIAL_LINKS } from "../utils/constants";
 import FadeIn from '../animations/FadeIn';
 
@@ -34,17 +35,25 @@ const Contact = () => {
             return;
         }
 
+        const subject = encodeURIComponent('New message from website')
+        const body = encodeURIComponent(
+            `Name: ${formData.name}\n Email: ${formData.email}\n\n${formData.message}`
+        );
+
+        window.location.href = `mailto:otiteotega@gmail.com?subject=${subject}&body=${body}`;
+
         setStatus({ type: 'success', message: 'Message sent successfully! '})
         setFormData({ name: '', email: '', message: ''});
 
-        setTimeout(() => setStatus({ type: '', message: ''}), 5000);
+        setTimeout(() => setStatus({ type: '', message: ''}), 3000);
 
     };
 
     const socialIcons = {
         github: Github,
         linkedin: Linkedin,
-        twitter: Twitter
+        twitter: Twitter,
+        whatsapp: FaWhatsapp,
     };
 
 
@@ -112,7 +121,8 @@ const Contact = () => {
                                     <label htmlFor="message" className="block text-sm font-medium text-white/80 mb-2">
                                         Message
                                     </label>
-                                    <input 
+                                    <textarea 
+                                        
                                         id="message"
                                         name="message"
                                         value={formData.message}
@@ -126,6 +136,7 @@ const Contact = () => {
                                 <button
                                     type="submit"
                                     className="w-full px-6 py-3 bg-linear-to-r from-primary/10 to-primary text-white font-medium rounded-xl hover:shadow-2xl hover:shadow-primary/30 transition-all duration-300 flex items-center justify-center gap-2 group"
+                                    onClick={() => handleSubmit}
                                 >
                                     <span>Send Message</span>
                                     <Send className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
